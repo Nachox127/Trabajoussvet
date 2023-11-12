@@ -24,7 +24,7 @@ def vet():
             mascotas[indice+3] = a
             print("La ultima fecha de vacunación fue el", mascotas[indice+3])
             print(mascotas)
-    def ingrmasco ():
+    def ingrmasco():
         k = input("Ingrese numero de chip:")
         if k in mascotas:
             indice = mascotas.index(k)
